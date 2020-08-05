@@ -1,0 +1,54 @@
+body{
+    margin 0px;
+}
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2014/07/Landscape-wallpapers-2.jpg);
+    font-family: Arial;
+}
+
+#navbar{
+    background-color: #123;
+    display: table;
+    width: 100%;
+    box-shadow: 0 2px 5px 2px #000;
+ }
+
+
+#navbar ul{ 
+        display: table-row;
+    }
+
+#navbar li{ 
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    border-right: 1px solid #777;
+    text-align: center;
+    width: 15%;}
+#navbar li:first-child:hover{ 
+    background-color: unset;}
+
+#navbar li:first-child{ 
+    text-align: left;
+    border-right: none;
+    width: auto;}
+
+    #navbar li:hover {
+        background-color: #222;
+    }
+    #navbar li:hover a {
+        color: orange;
+    }
+
+
+    #navbar a{
+        color: #bf4a54; }
+               
